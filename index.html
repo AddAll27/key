@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jorge Adalberto Chávez Nava - Currículum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', serif;
+      color: #444;
+      background-color: #fff;
+      line-height: 1.6;
+      padding: 40px 300px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo b {
+      font-size: 28px;
+      color: #1a1a1a;
+    }
+
+    .subtitulo {
+      font-size: 20px;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    nav {
+      align-self: flex-end;
+      transform: translateY(-4px);
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-size: 16px;
+      position: relative;
+      transition: color 0.2s ease;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      color: #1a1a1a;
+    }
+
+    nav a:hover::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 2px;
+      background-color: #f5b400;
+      border-radius: 2px;
+    }
+
+    nav a:first-child {
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #2b2b2b;
+      position: relative;
+      display: block;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 4px;
+      background-color: #f5b400;
+      margin-top: 6px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #2b2b2b;
+    }
+
+    .job-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      color: #2b2b2b;
+    }
+
+    .date {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      text-align: justify;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 900px) {
+      body {
+        padding: 30px 40px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 20px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 30px;
+      }
+
+      .logo b {
+        font-size: 22px;
+      }
+
+      nav {
+        align-self: auto;
+        transform: none;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 15px;
+        font-size: 17px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p, ul li, .subtitle, .job-title {
+        font-size: 17px;
+      }
+
+      ul {
+        margin-left: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <b>Jorge Adalberto Chávez Nava</b>
+      <div class="subtitulo">Analista financiero</div>
+    </div>
+    <nav>
+      <a href="index.html">Currículum</a>
+      <a href="portafolio.html">Portafolio</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Objetivo profesional</h2>
+    <p>
+      Interesado en desarrollar competencias que aporten al logro de objetivos empresariales mediante el análisis financiero y la optimización de sistemas. Busco crecer profesionalmente en un entorno dinámico y colaborativo, enfrentando nuevos retos donde pueda proponer soluciones innovadoras que mejoren la eficiencia operativa y respalden la toma de decisiones estratégicas.
+    </p>
+  </section>
+
+  <section>
+    <h2>Experiencia profesional</h2>
+
+    <div class="job-title">DiGRA Conference 2024 | Finance Manager</div>
+    <div class="date">Enero 2024 – Julio 2024</div>
+    <ul>
+      <li>Elaboración de proyecciones financieras y evaluación de escenarios.</li>
+      <li>Cálculo del punto de equilibrio (boletos e ingresos).</li>
+      <li>Análisis de costos y tarifas en plataformas de eventos.</li>
+      <li>Elaboración de presupuestos detallados.</li>
+      <li>Emisión de facturas para control de pagos.</li>
+      <li>Actualización de contenido web del evento.</li>
+    </ul>
+
+    <div class="job-title">Coordinación de Posgrados en Finanzas CUCEA | Servicio Social</div>
+    <div class="date">Septiembre 2023 – Abril 2024</div>
+    <ul>
+      <li>Evaluación de informes financieros y detección de tendencias.</li>
+      <li>Análisis de indicadores por programa educativo.</li>
+      <li>Registro de pagos en bases de datos.</li>
+      <li>Apoyo logístico en eventos académicos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <p>
+      <strong>Centro Universitario de Ciencias Económico Administrativas (CUCEA)</strong><br/>
+      Lic. en Admón Financiera y Sistemas<br/>
+      2020 – 2024<br/>
+    </p>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <p><strong>Habilidades técnicas:</strong></p>
+    <ul>
+      <li>Análisis financiero: pensamiento crítico, interpretación de estados financieros, modelado financiero, análisis de tendencias.</li>
+      <li>Paquetería Office: Excel, Word, PowerPoint, Access, Teams, SharePoint.</li>
+      <li>Otras herramientas: Google Sheets, Power BI, Python, Figma.</li>
+    </ul>
+    <p><strong>Habilidades blandas:</strong></p>
+    <ul>
+      <li>Proactividad: iniciativa para proponer soluciones y tomar acción sin necesidad de supervisión constante.</li>
+      <li>Comunicación: capacidad para expresar ideas de forma clara y eficaz en distintos contextos.</li>
+      <li>Trabajo en equipo: colaboración efectiva con equipos multidisciplinarios y en entornos diversos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Español: Nativo</li>
+      <li>Inglés: Intermedio</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <ul>
+      <li>Email: ar16506210@gmail.com</li>
+      <li>Teléfono: +52 33 5122 2135</li>
+      <li>Guadalajara, Jalisco</li>
+    </ul>
+  </section>
+
+</body>
+</html>

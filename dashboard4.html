@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jorge Adalberto Chávez Nava - Dashboard | Clientes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f0f0f3, #e2e2e9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(14px);
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      overflow: hidden;
+      max-width: 900px;
+      width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .content h2 {
+      font-size: 26px;
+      color: #2b2b2b;
+      margin-bottom: 16px;
+    }
+
+    .content p {
+      font-size: 18px;
+      color: #444;
+      text-align: justify;
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+
+    .content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .content ul li {
+      position: relative;
+      font-size: 18px; 
+      margin-bottom: 10px;
+      padding-left: 22px;
+      color: #444;
+      line-height: 1.7;
+    }
+
+    .content ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #7F65BE;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: #7F65BE;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 0 6px 18px rgba(127, 101, 190, 0.3);
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #6d55a8;
+    }
+
+    @media (max-width: 768px) {
+      .content p,
+      .content ul li {
+        font-size: 17px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 20px 15px;
+      }
+      .content p,
+      .content ul li {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="images/dashboard4.jpg" alt="Dashboard | Clientes">
+    <div class="content">
+      <h2>Dashboard | Clientes</h2>
+      <p>
+       Este dashboard presenta una visión integral del comportamiento de los clientes de la empresa, permitiendo explorar el valor económico aportado por cada grupo. El reporte en Power BI facilita la toma de decisiones centradas en el cliente, alineadas con los objetivos de crecimiento, retención y rentabilidad del negocio.<p>
+       <strong>Objetivos del análisis:</strong>
+      </p>
+      <ul>
+        <li>Evaluar el comportamiento de los clientes a lo largo del tiempo.</li>
+        <li>Segmentar a los clientes por valor y comportamiento.</li>
+        <li>Detectar patrones de compra y estacionalidad.</li>
+        <li>Medir la fidelidad del cliente.</li>
+      </ul>
+      <a href="portafolio.html" class="btn">Ver más proyectos</a>
+    </div>
+  </div>
+
+</body>
+</html>
