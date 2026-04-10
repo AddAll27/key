@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jorge Adalberto Chávez Nava - Currículum</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -83,7 +83,7 @@
     h2 {
       font-size: 26px;
       margin-bottom: 10px;
-      font-weight: bold;
+      font-weight: normal;
       color: #2b2b2b;
       position: relative;
       display: block;
@@ -108,27 +108,6 @@
       text-align: justify;
     }
 
-    .subtitle {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 8px;
-      color: #2b2b2b;
-    }
-
-    .job-title {
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 20px;
-      margin-bottom: 5px;
-      color: #2b2b2b;
-    }
-
-    .date {
-      font-size: 16px;
-      color: #777;
-      margin-bottom: 10px;
-    }
-
     ul {
       margin-left: 20px;
       margin-bottom: 20px;
@@ -138,6 +117,25 @@
       text-align: justify;
       font-size: 18px;
       margin-bottom: 6px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .left {
+      font-weight: 400;
+      color: #2b2b2b;
+      font-size: 18px;
+    }
+
+    .right {
+      font-size: 18px;
+      color: #2b2b2b;
     }
 
     @media (max-width: 900px) {
@@ -177,12 +175,21 @@
         font-size: 24px;
       }
 
-      p, ul li, .subtitle, .job-title {
+      p, ul li {
         font-size: 17px;
       }
 
       ul {
         margin-left: 15px;
+      }
+
+      .row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .right {
+        margin-top: 5px;
       }
     }
   </style>
@@ -192,7 +199,7 @@
   <header>
     <div class="logo">
       <b>Jorge Adalberto Chávez Nava</b>
-      <div class="subtitulo">Analista financiero</div>
+      <div class="subtitulo">Analista financiero | FP&A</div>
     </div>
     <nav>
       <a href="index.html">Currículum</a>
@@ -201,17 +208,20 @@
   </header>
 
   <section>
-    <h2>Objetivo profesional</h2>
+    <h2>Resumen profesional</h2>
     <p>
-      Interesado en desarrollar competencias que aporten al logro de objetivos empresariales mediante el análisis financiero y la optimización de sistemas. Busco crecer profesionalmente en un entorno dinámico y colaborativo, enfrentando nuevos retos donde pueda proponer soluciones innovadoras que mejoren la eficiencia operativa y respalden la toma de decisiones estratégicas.
+      Analista financiero con experiencia en proyecciones, control de costos y presupuestos de proyectos. Desarrollo modelos financieros y dashboards con Excel, Google Sheets y Power BI para convertir datos en decisiones estratégicas.
     </p>
   </section>
 
   <section>
     <h2>Experiencia profesional</h2>
 
-    <div class="job-title">DiGRA Conference 2024 | Finance Manager</div>
-    <div class="date">Enero 2024 – Julio 2024</div>
+    <div class="row">
+      <div class="left">Finance Manager | DiGRA Conference 2024</div>
+      <div class="right">Ene 2024 – Jul 2024</div>
+    </div>
+    <br>
     <ul>
       <li>Elaboración de proyecciones financieras y evaluación de escenarios.</li>
       <li>Cálculo del punto de equilibrio (boletos e ingresos).</li>
@@ -221,8 +231,11 @@
       <li>Actualización de contenido web del evento.</li>
     </ul>
 
-    <div class="job-title">Coordinación de Posgrados en Finanzas CUCEA | Servicio Social</div>
-    <div class="date">Septiembre 2023 – Abril 2024</div>
+    <div class="row">
+      <div class="left">Servicio Social | Coordinación de Posgrados en Finanzas CUCEA</div>
+      <div class="right">Sep 2023 – Abr 2024</div>
+    </div>
+    <br>
     <ul>
       <li>Evaluación de informes financieros y detección de tendencias.</li>
       <li>Análisis de indicadores por programa educativo.</li>
@@ -233,34 +246,23 @@
 
   <section>
     <h2>Educación</h2>
-    <p>
-      <strong>Centro Universitario de Ciencias Económico Administrativas (CUCEA)</strong><br/>
-      Lic. en Admón Financiera y Sistemas<br/>
-      2020 – 2024<br/>
+
+    <div class="row">
+      <div class="left">Lic. en Admón Financiera y Sistemas | Universidad de Guadalajara</div>
+      <div class="right">Ago 2020 – Jul 2024</div>
+    </div>
+
+    <p> 
+      Idiomas: Español (Nativo) | Inglés (Intermedio)
     </p>
   </section>
 
   <section>
-    <h2>Habilidades</h2>
-    <p><strong>Habilidades técnicas:</strong></p>
+    <h2>Habilidades técnicas</h2>
     <ul>
       <li>Análisis financiero: pensamiento crítico, interpretación de estados financieros, modelado financiero, análisis de tendencias.</li>
       <li>Paquetería Office: Excel, Word, PowerPoint, Access, Teams, SharePoint.</li>
-      <li>Otras herramientas: Google Sheets, Power BI, Python, Figma.</li>
-    </ul>
-    <p><strong>Habilidades blandas:</strong></p>
-    <ul>
-      <li>Proactividad: iniciativa para proponer soluciones y tomar acción sin necesidad de supervisión constante.</li>
-      <li>Comunicación: capacidad para expresar ideas de forma clara y eficaz en distintos contextos.</li>
-      <li>Trabajo en equipo: colaboración efectiva con equipos multidisciplinarios y en entornos diversos.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Idiomas</h2>
-    <ul>
-      <li>Español: Nativo</li>
-      <li>Inglés: Intermedio</li>
+      <li>Otras: Google Sheets, Power BI, Figma.</li>
     </ul>
   </section>
 
